@@ -3,6 +3,7 @@ from bpy.types import Operator
 
 
 class TEST_OT_Operator(Operator):
+
     bl_idname = "view3d.cursor_center"
     bl_label = "Simple operator"
     bl_descrition = "Center 3d cursor"
