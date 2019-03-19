@@ -10,7 +10,7 @@ class TEST_PT_Panel(Panel):
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
 
-    def draw(self, cotext):
+    def draw(self, context):
         layout = self.layout 
         row = layout.row()
-        row.operator('view3d.cursor_center')
+        row.operator('view3d.cursor_center', text="Center 3D cursor")
